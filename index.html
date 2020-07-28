@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIAK | Movie Info</title>
+    <link rel="icon" href="./images/img_66.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-search">
+                    <div class="logo">
+                        <img src="./images/img_66.png" alt="">
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Movie search...">
+                        <button>Go</button>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <ul id="ul">
+                        <li class="uppercase"><a href="">Home</a></li>
+                        <li class="uppercase"><a href="">About</a></li>
+                        <li class="uppercase"><a href="">Tv show</a></li>
+                        <li class="uppercase"><a href="">watch online</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i id="icon" class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+        <div class="header-bg"></div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-container">
+                <div class="welcome">
+                    <h1>Welcome to <span class="uppercase orange">moviak</span></h1>
+                    <p>Find info about your favorite movie</p>
+                </div>
+                <div class="search-main">
+                    <input id="input" type="text" placeholder="Movie search...">
+                    <button onclick="getInput()">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            <div class="poster">
+                <img id="poster" alt="">
+            </div>
+            <div class="info">
+                <div class="info-head">
+                    <div class="title">
+                        <h1 id="title">Guardians of the Galaxy</h1>
+                        <p id="genres">Drama | Action | Adventure</p>
+                    </div>
+                    <div class="rating-runtime">
+                        <p id="rating">Rating: </p>
+                        <p id="runtime">Runtime: </p>
+                    </div>
+                </div>
+                <div class="description">
+                    <p id="plot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolor, quas accusamus quis quasi placeat qui? Nulla repellendus laboriosam cumque. Explicabo dolor, quas accusamus quis quasi placeat qui? Nulla repellendus laboriosam cumque.</p>
+                </div>
+                <div class="production">
+                    <p id="actors">Actors: </p>
+                    <p id="director">Director: </p>
+                    <p id="production">Production company: </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-div">
+                    <img src="./images/img_66.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="footer-div">
+                    <h3>Custom Services</h3>
+                    <p>Home</p>
+                    <p>Movie Grid</p>
+                    <p>Tv Show List</p>
+                </div>
+                <div class="footer-div">
+                    <h3>Recent Post</h3>
+                    <p>Doctor Strange assembles with the Avengers</p>
+                    <p>April 3, 2019</p>
+                    <p>5 movies to watch this week (29 Sep 2016)</p>
+                    <p>April 3, 2019</p>
+                </div>
+                <div class="footer-div">
+                    <h3>Contact Us</h3>
+                    <p>9067 Zurich, Switzerland 87</p>
+                    <p>abc@gmail.com</p>
+                    <p><span class="orange">01-234-5678</span></p>
+                    <p>April 3, 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©copyright 2016 Movie</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
