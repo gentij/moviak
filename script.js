@@ -54,7 +54,7 @@ function passData(data) {
 }
 
 function fetchData(param) {
-    fetch(`http://www.omdbapi.com/?i=${param}&apikey=e6bd81b4`, {
+    fetch(`https://www.omdbapi.com/?i=${param}&apikey=e6bd81b4`, {
 	"method": "GET",
     })
     .then(response => {
